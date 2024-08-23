@@ -13,7 +13,7 @@
     <script>
         tailwind.config = {
           theme: {
-            extend: {
+            extend: { 
               colors: {
                 clifford: '#da373d',
                 buy: '#ABEF5F',
@@ -24,18 +24,18 @@
                 'card-yellow': '#EFDA6E;',
                 'card-green': '#A4DAC3;',
                 'card-blue': '#77AAEA;',
-              }
-            }
-          }
+              },
+              
+        backgroundImage: {
+          'hero-pattern': "url('./assets/bg.jpg')", 
+             },
+            },
+          },
         }
       </script>
       <!-- font awsome -->
       <script src="https://kit.fontawesome.com/7d9fe45805.js" crossorigin="anonymous"></script>
-      <style>
-        .midddle{
-          text-align: center;
-        }
-      </style>
+       
 </head>
 <body class="">
     <!-- header start -->
@@ -111,7 +111,7 @@
         </div>
        </section>
        <!-- work process -->
-        <section class="bg-new-c container mx-auto py-7 lg:py-24 lg:px-32">
+        <section class="bg-new-c container mx-auto py-7 lg:py-24 lg:px-32 ">
           <div class=" text-center "><button class=" bg-white py-1 px-4 rounded-full "> <i class="fa-solid fa-arrow-right "></i></i>How we works  </button></div>
           <div class="  mb-8">
             <h1 class="text-3xl  font-bold mb-5 text-center"> Our work process</h1>
@@ -164,7 +164,27 @@
             </div>
             
         </section>
+        <!-- Connect part -->
+         <section class="bg-hero-pattern pt-10 lg:pt-24 container mx-auto lg:px-32  pb-8 lg:pb-24 ">
+          <div class=" text-center "><button class=" bg-buy bg-opacity-45  py-1 px-4 rounded-full "> <i class="fa-solid fa-arrow-right "></i></i>Let's connect </button></div>
+          <div class="  mb-8"> 
+            <h1 class="text-3xl  font-bold mb-5 text-center"> Let’s Discuss Next Project</h1>
+            <p class="text-gray-600 text-center px-2 ">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+          </div> 
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 pl-3  "> 
+            <input type="text" placeholder="First Name*" class="input input-bordered lg:col-span-2 rounded-full " />
+            <input type="text" placeholder="Type here" class="input input-bordered lg:col-span-2 rounded-full " /> 
+            <input type="text" placeholder="Type here" class="input input-bordered lg:col-span-2 rounded-full " />
+            <input type="text" placeholder="Type here" class="input input-bordered lg:col-span-2  rounded-full " />
+            <input type="text" placeholder="Type here" class="input input-bordered lg:col-span-4 h-56 rounded-[32px]" />
+            <a class="btn bg-buy bg-opacity-45 text-black rounded-full px-36 lg:py-2 lg:pl-5 lg:pr-3 lg:col-span-4 font-bold">Send mail<i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-1 -rotate-45"></i></i></a>
+          </div>
 
+
+         </section>
+  
     </main>
     <!-- footer start -->
     <footer>
